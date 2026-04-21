@@ -243,7 +243,7 @@ class SistemaGestion:
         tk.Button(f, text="Registrar Pago", bg="#e67e22", fg="white", height=2, command=guardar).pack(fill="x", pady=20)
 
 
-if __name__ == "_main__":
+if __name__ == "_main_":
     root = tk.Tk()
     app = SistemaGestion(root)
     root.mainloop()
